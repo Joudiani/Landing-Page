@@ -93,105 +93,236 @@
         </svg>
           
 
-        <!-- NavBar -->
+        <!-- Header -->
         <!-- Your code here... -->
-        
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#" title="Link: https://getbootstrap.com/docs/5.2/examples/navbar-fixed/#">Fixed navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" title="Link: https://getbootstrap.com/docs/5.2/examples/navbar-fixed/#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" title="Link: https://getbootstrap.com/docs/5.2/examples/navbar-fixed/#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" title="">Disabled</a>
-                </li>
+        <header class="p-3 mb-3 border-bottom bg-light ">
+          <div class="container">
+
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+              <img class="d-block mx-auto mb-4" src="D:\cs-coding-bootcamp-18 AUG-2022\MOD-2\image\logo1.svg" alt="" width="80" height="80">
+
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-dark"> Restaurants</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark"> Pharmacies</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark"> Grocery</a></li>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+      
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
               </form>
+      
+              <div class="dropdown text-end">
+                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="https://github.com/mdo.png" alt="mdo" class="rounded-circle" width="32" height="32">
+                </a>
+                <ul class="dropdown-menu text-small">
+                  <li><a class="dropdown-item" href="#">Cash Back</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </nav>
+        </header>
+        
 
         <!-- Hero -->
         <!-- Your code here... -->
-<div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="https://raw.githubusercontent.com/Joudiani/Landing-Page/d80c9c4781f4aab64f84c83115f6a85e0eb5f930/logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold">Centered hero</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-outline-success btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
-    </div>
-  </div>
+        <div class="px-1 py-1 my-5 text-center">
+          
+          <h1 class="display-5 fw-bold">Deliv-You</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Order food and grocery delivery online from hundreds of restaurants and shops nearby.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center pb-4 border-bottom">
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Sign up</button>
+              <button type="button" class="btn btn-outline-primary btn-lg px-4">Log in </button>
+            </div>
+            <img class="d-block mx-auto mb-4" src="https://redwerk.com/wp-content/uploads/2020/08/cover.png" alt="" width="1000" height="757">
+          </div>
+          <div class="Cashback-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Cashback</h1>
+            <p class="fs-5 text-muted">Craving a meal from your favorite restaurant? Up to 10% Off Get it delivered to your door with Deliv-You.com, plus earn cash back.</p>
+          </div>
+        </div>
+
+        
+
         <!-- Features -->
         <!-- Your code here... -->
-        <div class="container px-4 py-5" id="featured-3">
-          <h2 class="pb-2 border-bottom">Columns with icons</h2>
+
+
+        <div class="container px-4 py-5 text-center " id="featured-3">
+          <h2 class="pb-2 border-bottom">What's on your shopping list today?</h2>
           <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
               <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                 <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
               </div>
-              <h2>Featured title</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center" title="Link: https://getbootstrap.com/docs/5.2/examples/features/#">
-                Call to action
+              <h2>Restaurants</h2>
+              <p>Find deals, free delivery, and more from our restaurant partners.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Sign up
                 <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
               </a>
             </div>
             <div class="feature col">
               <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                 <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+
               </div>
-              <h2>Featured title</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center" title="Link: https://getbootstrap.com/docs/5.2/examples/features/#">
-                Call to action
+              <h2>Pharmacies</h2>
+              <p>Got the sniffles? We’ve got you. Get medicine delivered to you quickly and easily.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Sign up
                 <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
               </a>
             </div>
+
             <div class="feature col">
               <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                 <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
               </div>
-              <h2>Featured title</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center" title="Link: https://getbootstrap.com/docs/5.2/examples/features/#">
-                Call to action
+              <h2>Grocery</h2>
+              <p>Don’t stand in line - order online! Choose from top stores delivering groceries to you.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Sign up
                 <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
               </a>
             </div>
           </div>
         </div>
+
+
+        
+
+                                <!-- Testimonial -->
+
+        <section class="py-5 border-bottom">
+          <div class="container px-5 my-5 px-5">
+              <div class="text-center mb-5">
+                  <h2 class="fw-bolder">Customer testimonials</h2>
+                  <p class="lead mb-0">Our customers love working with us</p>
+              </div>
+              <div class="row gx-5 justify-content-center">
+                  <div class="col-lg-6">
+
+
+
+
+
+
+                      <!-- Testimonial 1-->
+                      <div class="card mb-4">
+                          <div class="card-body p-4">
+                              <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                  <div class="ms-4">
+                                      <p class="mb-1">Thank you for putting together such a great product. We loved working with you and the whole team, and we will be recommending you to others!</p>
+                                      <div class="small text-muted">- Karim, Dubai</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Testimonial 2-->
+                      <div class="card">
+                          <div class="card-body p-4">
+                              <div class="d-flex">
+                                  <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                  <div class="ms-4">
+                                      <p class="mb-1">Your staff, from the person that answers the phone to the person making the pick-up or delivery, is excellent!</p>
+                                      <div class="small text-muted">- Samir, Sharjah</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+        <!-- Form -->
+        <!-- modify this form HTML and place wherever you want your form -->
+       
+      
+
+        <section class=" py-5">
+          <div class="container px-5 my-5 px-5">
+              <div class="text-center mb-5">
+                  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                  <h2 class="fw-bolder">Get in touch</h2>
+                  <p class="lead mb-0">We'd love to hear from you</p>
+              </div>
+              <div class="row gx-5 justify-content-center">
+                  <div class="col-lg-6">
+
+                     
+          
+                    <form
+                    action="https://formspree.io/f/xayknbdp"
+                    method="POST"
+                  >
+                        
+
+                          <!-- Name input-->
+
+
+                          <div class="form-floating mb-3">
+                              <input class="form-control" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" data-sb-can-submit="no">
+                              <label for="name">Full name</label>
+                              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                          </div>
+
+                          <!-- Email address input-->
+
+
+                          <div class="form-floating mb-3">
+                              <input class="form-control" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" data-sb-can-submit="no">
+                              <label for="email">Email address</label>
+                              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                          </div>
+
+                          <!-- Phone number input-->
+
+
+                          <div class="form-floating mb-3">
+                              <input class="form-control" name="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" data-sb-can-submit="no">
+                              <label for="phone">Phone number</label>
+                              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                          </div>
+
+
+                          <!-- Message input-->
+
+
+                          <div class="form-floating mb-3">
+                              <textarea class="form-control" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+                              <label for="message">Message</label>
+                              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                          </div>
+
+                          <button class="btn btn-primary" type="submit">Submit form</button>
+
+
+                          
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+
+
         <!-- Footer -->
         <!-- Your code here... -->
-        <div class="container">
-          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" title="Link: https://getbootstrap.com/">
-                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-              </a>
-              <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
-            </div>
-        
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-              <li class="ms-3"><a class="text-muted" href="#" title="Link: https://getbootstrap.com/docs/5.2/examples/footers/#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-              <li class="ms-3"><a class="text-muted" href="#" title="Link: https://getbootstrap.com/docs/5.2/examples/footers/#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-              <li class="ms-3"><a class="text-muted" href="#" title="Link: https://getbootstrap.com/docs/5.2/examples/footers/#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-            </ul>
-          </footer>
-        </div>
+        <footer class="py-5 bg-light">
+          <div class="container px-5"><p class="m-0 text-center text-dark">Copyright &copy; Deliv-You 2022</p></div>
+      </footer>
+
     </body>
 </html>
